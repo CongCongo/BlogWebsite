@@ -11,12 +11,12 @@ nav{
 nav ul{
 	list-style: none;
 	margin: 0;
+	float: right;
 }
 
-nav ul li{
+nav ul li, nav .logo{
 	display: inline-block;
 	line-height: 50px;
-	float:right;
 	margin-right: 20px;
 }
 
@@ -29,6 +29,7 @@ nav ul li a{
 
 nav ul li.logo{
 	float:left;
+	padding: 10px;
 }
 
 #banner .inner{
@@ -63,6 +64,15 @@ button{
 	margin: 30px;
 }
 
+.logo{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.logo a{
+	color: #fff;
+}
 
 
 
