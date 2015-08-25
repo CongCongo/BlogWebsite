@@ -11,13 +11,21 @@ p{
 	letter-spacing: 1px;
 }
 
+header{
+	background: rgba(0,0,0,0.3);
+}
+
 nav{
-	background: #ccc;
+	background: transparent;
 	height: 50px;
 }
 
+ul{
+	margin: 0;
+}
+
 #banner{
-	background: #777;
+	background: transparent;
 	height: 700px;
 }
 
@@ -64,6 +72,7 @@ nav ul li a{
 
 #banner .inner h1{
 	margin: 0;
+	color:#fff;
 }
 
 button{
@@ -130,6 +139,10 @@ button{
 
 .sub-heading{
 	font-size: 18px;
+}
+
+#banner .sub-heading{
+	color:#fff;
 }
 
 .icon-group{
@@ -257,8 +270,35 @@ button{
 	background:rgba(0,0,0,0.24);
 }
 
+footer{
+	background: #333;
+	color:#fff;
+	min-height: 200px;
+	text-align: center;
+}
 
+ul.share-group{
+	display: block;
+	width: 1080px;
+	margin:0 auto;
+	padding: 50px;
+}
 
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
 
+.copy{
+	padding-bottom: 20px;
+}
+
+.main-wrapper{
+	background: #444 url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
 
 
