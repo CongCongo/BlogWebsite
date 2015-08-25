@@ -74,6 +74,55 @@ button{
 	color: #fff;
 }
 
+.hr {
+	height: 2px;
+	width:100%;
+	margin: 20px auto;
+}
+
+.content{
+	padding: 0;
+}
+
+.green-section{
+	text-align: center;
+	background: #4F8A7A;
+	color:#fff;
+	padding: 100px 0;
+}
+
+.green-section .hr{
+	background: #386559;
+	width: 60%;
+}
+
+.green-section .wrapper{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.green-section .wrapper h2{
+	margin: 0;
+	font-size: 30px;
+}
+
+.sub-heading{
+	font-size: 18px;
+}
+
+.icon-group{
+	margin-top: 60px;
+}
+
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid #427567;
+	transform:rotate(45deg);
+	margin: 20px;
+}
+
 
 
 
