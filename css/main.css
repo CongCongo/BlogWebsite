@@ -2,6 +2,15 @@ h2{
 	margin: 0;
 }
 
+h3{
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
 nav{
 	background: #ccc;
 	height: 50px;
@@ -109,12 +118,12 @@ button{
 	width: 60%;
 }
 
-.green-section .wrapper{
+.wrapper{
 	max-width: 1080px;
 	margin: 0 auto;
 }
 
-.green-section .wrapper h2{
+.wrapper h2{
 	margin: 0;
 	font-size: 30px;
 }
@@ -174,10 +183,6 @@ button{
 	margin-bottom: 20px;
 }
 
-.text-section p{
-	font-size: 18px;
-	letter-spacing: 1px;
-}
 
 .text-section .sub-heading{
 	font-size: 22px;
@@ -196,7 +201,61 @@ button{
 	background-color: rgba(255,255,255,0.25);
 }
 
+.purple-section{
+	padding: 80px;
+	background: #3F3965;
+	color:#fff;
+}
 
+.purple-section .head-wrapper{
+	text-align: center;
+}
+
+.purple-section .hr{
+	background: #fff;
+	width: 60%;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.card{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	padding:50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border:1px solid white;*/
+}
+
+.card:first-child{
+	background:rgba(0,0,0,0.04);
+}
+
+.card:nth-child(2){
+	background:rgba(0,0,0,0.08);
+}
+
+.card:nth-child(3){
+	background:rgba(0,0,0,0.12);
+}
+
+.card:nth-child(4){
+	background:rgba(0,0,0,0.16);
+}
+
+.card:nth-child(5){
+	background:rgba(0,0,0,0.20);
+}
+
+.card:nth-child(6){
+	background:rgba(0,0,0,0.24);
+}
 
 
 
